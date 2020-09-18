@@ -55,6 +55,12 @@
   <p>Here is an old fashioned rolodex, which is a way to store business cards usually in alphabetical order, if you wanted to get to a card for someone with a name starting with W you would have to wind around until you reached W.</p>
   <p>This is the only way to navigate between or work with the way this information is organised </p>
   <p>If these were your customers say you could organise them as objects, what is the difference? Well you could create categories and then know which clients are in Tech or Forestry. You could organise them by who owes money or who is waiting on an order. Information stored simply as an array doesn't easily give you options for creating or adding this functionality.</p>
+  <p>Arrays are strictly a list of values in order, where objects are paired with keys and values.So in order to get to a value in an array you would go</p>
+  <p>var businessCard = businessCards[254]</p>
+  <p>As with the rolodex this would take you straight to this place and return the value at this 'point' in the array, at this position we may simply have a name and return 'Walter'. </p>
+  <p>With an object we additionally have information stored in key/value pairs so the following could be used to store objects also in an array. </p>
+  <p>var businessCard = businessCards[254]['name']</p>
+  <p>This could also return Walter as the name on the card at this position.</p>
   <h2>Functions - what are they and why are they useful?</h2>
   <p>In the above example I talked about making a cup of coffee, a function is like a shortcut to do something that is often repeated but is only actually written explicitly once.</p>
   <p>Imagine if you completely forgot how to make a cup of coffee, or where you lived and how to get there so had to work it out from scratch everytime.</p>
