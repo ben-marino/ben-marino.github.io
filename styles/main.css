@@ -2,6 +2,23 @@ body{
     font-family: 'Kufam', cursive;
 }
 
+@media (max-width: 320px) {
+  body {
+    background-color: 'green'
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-color: #aacbb6;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    background-color: #f6dfd2;
+  }
+}
+
+
 img {
     border-radius: 8px;
     margin-bottom: 5px;
