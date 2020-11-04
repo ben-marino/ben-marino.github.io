@@ -2,7 +2,7 @@ body{
     font-family: 'Kufam', cursive;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   body {
     background-color: 'green'
   }
